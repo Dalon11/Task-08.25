@@ -16,10 +16,6 @@
 У игрока есть следующие атрибуты: здоровье, количество жизней, никнейм, таблица навыков. 
 Также у игрока есть экипировка: винтовка с патронами, парашют, ракетный ранец с произвольным количеством зарядов.
 
-using System;
-
-namespace PlayerSingleton
-{
     class Program
     {
         static void Main(string[] args)
@@ -131,7 +127,6 @@ namespace PlayerSingleton
             this.charges = charges;
         }
     }
-} 
 
 Необходимо переделать код так, чтобы использовать Dependency Injection, и выполнить следующие пункты:
 
